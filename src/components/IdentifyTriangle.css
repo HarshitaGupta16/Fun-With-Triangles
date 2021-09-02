@@ -1,0 +1,67 @@
+:root {
+  --primary-color: #00539cff;
+  --secondary-color: #ffd662ff;
+}
+
+.form-identify-triangle {
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  background: #be123c;
+  padding-top: 1rem;
+  padding-bottom: 1px;
+  margin: auto;
+  margin-top: 2rem;
+  /* margin: 2rem 0rem; */
+  border-radius: 1rem;
+  /* border: 2px solid var(--primary-color); */
+  border: 4mm ridge var(--primary-color);
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.form-identify-triangle label {
+  display: block;
+  font-weight: bold;
+  margin: 2rem 0rem;
+  margin-left: -35%;
+  font-size: 1.3rem;
+  /* color: #1E40AF; */
+  color: var(--secondary-color);
+}
+
+.form-identify-triangle input {
+  justify-content: space-around;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 3rem;
+  margin: 1rem 2rem;
+  padding: 1rem;
+  box-shadow: 10px 10px 10px var(--primary-color);
+}
+
+.form-identify-triangle button {
+  display: block;
+  /* margin: 20% 50%; */
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 0.7rem 2rem;
+  border-radius: 1rem;
+  background: #facc15;
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+}
+
+.output {
+  border: 2px solid var(--primary-color);
+  width: 40%;
+  padding: 1rem;
+  text-align: center;
+  margin: auto;
+  border-radius: 1rem;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  margin-bottom: 5%;
+}

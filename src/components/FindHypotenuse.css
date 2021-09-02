@@ -1,0 +1,221 @@
+h3 {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+form {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.triangle {
+  position: relative;
+  width: 104px;
+  height: 104px;
+  margin: 0px auto 20px;
+}
+
+.triangle label {
+  position: absolute;
+  font-size: 0.8rem;
+}
+
+.sideA {
+  left: -15px;
+  top: 45px;
+}
+
+.label {
+  font-weight: bold;
+  display: inline-block;
+}
+
+label {
+  cursor: default;
+}
+
+.triangle .line1 {
+  border: 0.1px solid black;
+  width: 98.5px;
+  bottom: -101px;
+}
+
+.triangle div {
+  height: 2px;
+}
+
+.line {
+  position: relative;
+}
+
+.sideB {
+  left: 45px;
+  top: 105px;
+}
+
+.triangle .line2 {
+  border: 0.1px solid black;
+  width: 96px;
+  transform: rotate(90deg);
+  top: 51px;
+  left: -48px;
+}
+
+.sideC {
+  left: 50px;
+  top: 35px;
+}
+
+.triangle .line3 {
+  border: 0.1px solid black;
+  transform: rotate(45deg);
+  top: 48px;
+  left: -20px;
+  width: 137px;
+}
+
+.form__find-hypotenuse {
+  height: 450px;
+  overflow-y: auto;
+  background-color: #65a30d;
+  margin: auto;
+  width: 50%;
+  padding: 2rem;
+  border: 3mm ridge #ffd662ff;
+}
+
+.form__find-hypotenuse input {
+  justify-content: space-around;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 3rem;
+  margin: 3rem 2rem 2rem;
+  padding: 1rem;
+  box-shadow: 10px 10px 10px var(--primary-color);
+}
+
+/* .form__find-hypotenuse button {
+  display: block;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  padding: 0.7rem 2rem;
+  border-radius: 1rem;
+  border: 1.5px solid var(--secondary-color);
+  background: var(--primary-color);
+  color: white;
+  font-weight: bold;
+  font-size: large;
+} */
+
+.label__input-box {
+  position: relative;
+  left: 10px;
+  /* bottom: 175px; */
+  font-size: 1.2rem;
+}
+
+.label__equal-to {
+  position: relative;
+  /* left: 400px; */
+  left: 20px;
+  /* bottom: 175px; */
+  font-weight: bold;
+}
+
+/* .label__equal-to-second {
+  position: relative;
+  left: 20px;
+  /* left: 560px; 
+  font-weight: bold;
+} */
+
+.underroot-line {
+  border-top: 1px solid black;
+  display: inline;
+  font-size: 1.5rem;
+}
+
+.output {
+  display: block;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: 2px solid;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  width: 20rem;
+  margin-top: 1rem;
+}
+
+.form__find-hypotenuse button {
+  display: block;
+  margin: 4rem auto;
+  cursor: pointer;
+
+  position: relative;
+  padding: 0.5rem 1rem;
+  border-radius: 3.75rem;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  font-weight: 650;
+  font-family: "Montserrat Alternates", sans-serif;
+  border: 1px solid var(--secondary-color);
+  background-image: linear-gradient(
+    -180deg,
+    rgb(47, 142, 224) 0%,
+    var(--primary-color) 100%
+  );
+  box-shadow: 0 1rem 1.25rem 0 rgba(22, 75, 195, 0.5),
+    0 -0.25rem 1.5rem rgb(36, 15, 155) inset, 0 0.75rem 0.5rem #00539cff inset,
+    0 0.25rem 0.5rem 0 #00539cff inset;
+}
+
+.form__find-hypotenuse button span {
+  color: transparent;
+  background-image: linear-gradient(
+    0deg,
+    var(--secondary-color) 0%,
+    #fefafd 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  filter: drop-shadow(0 2px 2px hsla(290, 100%, 20%, 1));
+}
+
+.form__find-hypotenuse button::before {
+  content: "";
+  display: block;
+  height: 0.25rem;
+  position: absolute;
+  top: 0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 7.5rem);
+  background: #fff;
+  border-radius: 100%;
+
+  opacity: 0.7;
+  background-image: linear-gradient(
+    -270deg,
+    rgba(255, 255, 255, 0) 0%,
+    #ffffff 20%,
+    #ffffff 80%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.form__find-hypotenuse button::after {
+  content: "";
+  display: block;
+  height: 0.25rem;
+  position: absolute;
+  bottom: 0.75rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 7.5rem);
+  background: #fff;
+  border-radius: 100%;
+
+  filter: blur(1px);
+  opacity: 0.05;
+  /* background-image: linear-gradient(-270deg, rgba(255,255,255,0.00) 0%, #FFFFFF 20%, #FFFFFF 80%, rgba(255,255,255,0.00) 100%); */
+}

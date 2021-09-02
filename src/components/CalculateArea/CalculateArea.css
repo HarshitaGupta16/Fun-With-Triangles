@@ -1,0 +1,185 @@
+h2 {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.form-calculate-area {
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  background: #ea580c;
+  padding-top: 1rem;
+  padding-bottom: 1px;
+  margin: auto;
+  margin-top: 2rem;
+  /* margin: 2rem 0rem; */
+  border-radius: 1rem;
+  /* border: 2px solid var(--primary-color); */
+  border: 4mm ridge var(--primary-color);
+  color: var(--secondary-color);
+  height: 400px;
+  overflow-y: auto;
+}
+
+.form-calculate-area label {
+  font-weight: bold;
+  margin: auto;
+  font-size: 1.3rem;
+  /* color: #1E40AF; */
+  color: var(--primary-color);
+}
+
+.form-calculate-area input {
+  justify-content: space-around;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 3rem;
+  margin: 0rem 2rem 1rem 0.5rem;
+  padding: 1rem;
+  box-shadow: 10px 10px 10px var(--primary-color);
+}
+
+.form-calculate-area button {
+  display: block;
+  /* margin: 20% 50%; */
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  padding: 0.7rem 1.5rem;
+  border-radius: 2rem;
+  background: var(--primary-color);
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.triangle-height-base {
+  position: relative;
+  width: 100px;
+  height: 104px;
+  margin: 30px 40% 5px;
+  /* justify-content: center;
+  align-items: center; */
+  /* margin: auto; */
+}
+
+.triangle-height-base label {
+  position: absolute;
+}
+.triangle-height-base .label {
+  /* top: 5px; */
+  font-size: 0.8rem;
+  color: var(--primary-color);
+}
+
+.triangle-height-base .line1 {
+  position: relative;
+  border: 1px solid black;
+  transform: rotate(-40deg);
+  width: 120px;
+  left: -23px;
+}
+
+.triangle-height-base .line2 {
+  position: relative;
+  border: 1px solid black;
+  top: 38px;
+  left: -10px;
+  width: 185px;
+}
+
+.base {
+  /* top: 90px; */
+  left: 60px;
+  bottom: 40px;
+}
+
+.triangle-height-base .line3 {
+  position: relative;
+  border: 1px solid black;
+  width: 120px;
+  transform: rotate(40deg);
+  left: 70px;
+  top: -15px;
+}
+
+.triangle-height-base .line4 {
+  position: relative;
+  border: 1px dashed var(--secondary-color);
+  transform: rotate(90deg);
+  left: 45px;
+  bottom: 20px;
+  width: 76px;
+}
+
+.height {
+  left: 90px;
+  top: 1px;
+}
+
+.triangle-height-base .box {
+  border-top: 1px solid var(--secondary-color);
+  border-right: 1px solid var(--secondary-color);
+  /* top: -10px; */
+  /* left: 48px; */
+  margin-left: 85px;
+  margin-top: -4px;
+  width: 18px;
+  height: 18px;
+  background-color: #f59e0b;
+}
+
+.herons-side-a {
+  position: relative;
+  top: -12px;
+  left: 28px;
+}
+
+.angleA {
+  top: 25px;
+  left: 150px;
+}
+
+.herons-side-b {
+  position: relative;
+  top: -12px;
+  left: 133px;
+}
+.herons-side-c {
+  position: relative;
+  top: 40px;
+  left: 80px;
+}
+
+/* .form-herons-formula { */
+/* width: 600px; */
+/* height: 450px; */
+/* } */
+
+.main-form-radio-inputs {
+  margin: auto;
+  background: var(--secondary-color);
+  width: 35%;
+  border: 3px solid #f59e0b;
+  border-radius: 0.5rem;
+  padding: 0.7rem;
+  text-align: left;
+  padding-left: 1.5rem;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: bold;
+}
+
+.formula {
+  color: black;
+  display: inline;
+  border: 2px solid white;
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.top-line {
+  border-top: 1px solid black;
+  display: inline;
+}
