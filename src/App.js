@@ -21,7 +21,9 @@ export default function App() {
         <Route path="/" component={Home} />
         <Switch>
           <Route path="/" exact component={Nav} />
-          <Route path="/identify-triangle" component={IdentifyTriangle} />
+          <Route path="/identify-triangle" component={IdentifyTriangle}>
+            {/* <button>Identify Triangle</button> */}
+          </Route>
           <Route path="/triangle-quiz" component={TriangleQuiz} />
           <Route path="/find-hypotenuse" component={FindHypotenuse} />
           <Route path="/calculate-area" component={CalculateArea} />
