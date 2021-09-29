@@ -118,8 +118,10 @@ footer {
   padding: 1rem 0rem 0rem;
   background: var(--primary-color);
   bottom: 0px;
+  right: 0px;
+  left: 0px;
   position: fixed;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .footer-header {
@@ -135,14 +137,14 @@ footer {
 }
 
 .button-block {
-  width: 400px;
+  width: 478px;
   /* margin-top: 40px; */
   margin: auto;
 }
 
 .social {
   display: inline-block;
-  margin: 30px;
+  margin: 20px 30px;
   cursor: pointer;
 }
 
