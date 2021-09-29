@@ -115,7 +115,7 @@ body {
 }
 
 footer {
-  padding: 2rem 0rem 0rem;
+  padding: 1rem 0rem 0rem;
   background: var(--primary-color);
   bottom: 0px;
   position: fixed;
