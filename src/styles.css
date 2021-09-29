@@ -149,7 +149,7 @@ footer {
 .social a {
   display: block;
   background: rgba(0, 0, 0, 1);
-  padding: 10px;
+  padding: 2px;
   position: relative;
   transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0, 0);
   box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
@@ -157,7 +157,6 @@ footer {
 }
 
 .button-block .social a::before {
-  dislpay: block;
   content: "";
   position: absolute;
   width: 20px;
@@ -169,7 +168,6 @@ footer {
 }
 
 .button-block .social a::after {
-  dislpay: block;
   content: "";
   position: absolute;
   bottom: -20px;
@@ -189,5 +187,5 @@ footer {
 
 .social a i {
   color: rgba(256, 256, 256, 1);
-  font-size: 30pt;
+  font-size: 25pt;
 }
