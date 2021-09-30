@@ -35,7 +35,7 @@ export default function App() {
           {list.map((item) => {
             // console.log(item[1]);
             return (
-              <div className="social">
+              <div className="social" key={item[1]}>
                 <a href={item[1]} target="_blank" rel="noreferrer">
                   <i className={item[0]}></i>
                 </a>
