@@ -8,7 +8,7 @@ const IdentifyTriangle = () => {
   const [result, setResult] = useState("");
 
   const submitHandler = (event) => {
-    if (Number(angle1) + Number(angle2) + Number(angle3) === 180) {
+    if ((Number(angle1) + Number(angle2) + Number(angle3) === 180) && Number(angle1) !== 0 && Number(angle2) !== 0 && Number(angle3) !== 0) {
       setResult("It is a triangle");
     } else {
       setResult("It is not a triangle");
